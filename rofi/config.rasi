@@ -1,0 +1,13 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+/* Main Config 1080p */
+
+@import "~/.config/rofi/master-config.rasi" 
+
+/* ---- Configuration ---- */
+configuration {
+	font: "SF Pro 12";
+}
+
+element-text {
+    font:	"SF Pro 8";
+}
