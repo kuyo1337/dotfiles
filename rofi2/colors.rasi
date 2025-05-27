@@ -1,0 +1,124 @@
+// vim:ft=rasi
+* {
+  font:                   "JetBrainsMono Nerd Font 10";
+  foreground:             #C8C093;
+  background:             #1F1F28;
+  highlight:              #F1EDEE;
+
+  pink:                   #D99887;
+  old-highlight:          #F1594F;
+  red:                    #973D46;
+  darkred:                #973D46;
+  yellow:                 #F2C395;
+  darkyellow:             #E0AE4A;
+  lightblue:              #888CA7;
+  oldforeground:          #87A2AA;
+  altblue:                #ACBAF9;
+  altwhite:               #F1D8D4;
+  white:                  #F5F5F5;
+
+  b5:                     #1B1E25;
+  b4:                     #04142D;
+  b3:                     #091F2D;
+  b2:                     #1F1E2E;
+  b1:                     #333333;
+
+  lightgray:              #777777;
+  mediumgray:             #454545;
+  darkgray:               #232323;
+  black:                  #111111;
+  darkblack:              #000000;
+}
+
+element-icon {
+  /*Better to increase the whole element size with dpi*/
+  /* Or Maybe Not, Just have a unified icon size for all scheme */
+  size: 18;
+}
+
+element-text {
+  highlight:        @highlight;
+}
+
+window {
+  border-color:     @foreground;
+}
+
+inputbar {
+  text-color:       @foreground;
+  background-color: @background;
+}
+
+prompt {
+  text-color:       @background;
+  background-color: @foreground;
+}
+
+textbox-prompt-colon {
+  text-color:       @background;
+  background-color: @foreground;
+}
+
+message {
+  text-color: @foreground;
+  background-color: @background;
+}
+
+entry {
+  text-color:       @foreground;
+  background-color: @background;
+}
+
+listview {
+  background-color: @background;
+}
+
+mode-switcher {
+  text-color:       @foreground;
+  background-color: @background;
+}
+
+button {
+  text-color:       @foreground;
+  background-color: @background;
+}
+
+button selected {
+  text-color:       @background;
+  background-color: @foreground;
+}
+
+element {
+  text-color:       @foreground;
+  background-color: @background;
+}
+
+element normal.normal {
+  background-color: @background;
+  text-color:       @foreground;
+}
+
+element normal.active {
+  background-color: @background;
+  text-color:       @foreground;
+}
+
+element selected.normal {
+  text-color:       @background;
+  background-color: @foreground;
+}
+
+element selected.active {
+  background-color: @foreground;
+  text-color:       @background;
+}
+
+element alternate.normal {
+  background-color: @background;
+  text-color:       @foreground;
+}
+
+element alternate.active {
+  background-color: @background;
+  text-color:       @foreground;
+}
