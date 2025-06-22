@@ -1,3 +1,3 @@
-#kuyo's dotfiles
-#preview:
+# kuyo's dotfiles
+# preview:
 ![hypr](image.png)
