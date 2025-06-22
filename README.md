@@ -1,2 +1,3 @@
-# Dotfiles
-# ur gonna have a hard time doing this
+#kuyo's dotfiles
+#preview:
+![hypr](image.png)
